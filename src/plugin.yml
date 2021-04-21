@@ -1,0 +1,12 @@
+main: live.mufin.hardcore.Main
+name: CosmeticHardcore
+author: mufin
+website: mufin.live
+prefix: CH
+version: 1.0
+
+commands:
+  hardcorereload:
+    description: Reloads the playerdata.yml file.
+    usage: /<command>
+    aliases: [hcreload, hcrl]
