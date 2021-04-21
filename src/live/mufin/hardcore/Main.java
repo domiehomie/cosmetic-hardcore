@@ -37,6 +37,7 @@ public class Main extends JavaPlugin implements Listener {
 		if (data.getConfig().contains("players." + p.getUniqueId().toString()))
 			return;
 		data.getConfig().set("players." + p.getUniqueId().toString() + ".hardcore", true);
+		data.getConfig().set("players." + p.getUniqueId().toString() + ".playername", p.getName());
 		p.setDisplayName(ChatColor.RED + p.getName() + ChatColor.RESET);
 		data.saveConfig();
 	}
