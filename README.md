@@ -3,6 +3,8 @@
 # cosmetic-hardcore
 Adds a cosmetic hardcore mode to your Survival Minecraft server
 
+Download: https://www.mediafire.com/file/rm8zrm57jq7np9e/CosmeticHardcore-1.0.jar/file
+
 # Features:
 
 ## Hardcore status
