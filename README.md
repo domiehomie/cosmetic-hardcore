@@ -3,6 +3,8 @@
 # Cosmetic Hardcore
 Adds a cosmetic hardcore mode to your Survival Minecraft server
 
+Download: https://github.com/mufinlive/cosmetic-hardcore/releases
+
 # Features:
 
 ## Hardcore status
