@@ -1,6 +1,6 @@
 
 
-# cosmetic-hardcore
+# Cosmetic Hardcore
 Adds a cosmetic hardcore mode to your Survival Minecraft server
 
 # Features:
@@ -17,22 +17,8 @@ When a player has hardcore status, their name will be light red. This means ever
 
 ![img](./images/hardcoreexample.png)
 
-## Playerdata.yml
+## NBT Data
 
-This file will save all of your player's hardcore status. The file layout is as follows:
+The plugin stores the hardcore value in the player's NBT data. This can be viewed with `/data get entity <playername>` (The value name is `{"cosmetichardcore:hardcore": "value"}`).
 
-```yaml
-players:
-  9c3918a4-08f4-40b4-90e9-88e347ef4566:
-    hardcore: true
-    playername: muffintwt
-```
-
-Where you can set "true" if a person is in hardcore, and "false" if they are not.
-
-This also means that you will be able to update it whenever you want to. After you have updated the file (and saved it), type one of these three commands. They will reload the file.
-
-```
-/hardcorereload || /hcreload || /hcrl
-```
-
+It can be changed with `/sethardcore <player> <true|false>`.

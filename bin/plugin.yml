@@ -6,7 +6,6 @@ prefix: CH
 version: 1.0
 
 commands:
-  hardcorereload:
-    description: Reloads the playerdata.yml file.
-    usage: /<command>
-    aliases: [hcreload, hcrl]
+  sethardcore:
+    description: Lets you set the hardcore status of a player.
+    usage: /<command> <player> [true|false]
