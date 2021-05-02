@@ -24,3 +24,4 @@ When a player has hardcore status, their name will be light red. This means ever
 The plugin stores the hardcore value in the player's NBT data. This can be viewed with `/data get entity <playername>` (The value name is `{"cosmetichardcore:hardcore": "value"}`).
 
 It can be changed with `/sethardcore <player> <true|false>`.
+

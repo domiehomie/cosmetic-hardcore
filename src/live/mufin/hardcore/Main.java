@@ -72,6 +72,7 @@ public class Main extends JavaPlugin implements Listener {
 	
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+		if(!sender.hasPermission("cosmetichardcore.sethardcore")) return true;
 		if(label.equalsIgnoreCase("sethardcore")) {
 			if(args.length != 2) return false;
 			
